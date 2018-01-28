@@ -36,5 +36,8 @@
     "test": "test",
     "src": "src",
     "lib": "src"
+  },
+  "dependencies": {
+    "zeronet-crypto": "^0.1.0"
   }
 }
