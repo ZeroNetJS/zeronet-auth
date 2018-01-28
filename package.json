@@ -1,0 +1,40 @@
+{
+  "name": "zeronet-auth",
+  "version": "0.0.0",
+  "description": "Cryptographic authentication tools for ZeroNet",
+  "main": "index.js",
+  "scripts": {
+    "test": "aegir test",
+    "lint": "aegir lint",
+    "build": "aegir build",
+    "test:node": "aegir test -t node",
+    "test:browser": "aegir test -t browser",
+    "release": "aegir release",
+    "release-minor": "aegir release --type minor",
+    "release-major": "aegir release --type major",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage -u"
+  },
+  "keywords": [
+    "zeronet",
+    "zeroframe"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "aegir": "^12.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroNetJS/zeronet-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZeroNetJS/zeronet-auth/issues"
+  },
+  "homepage": "https://github.com/ZeroNetJS/zeronet-auth#readme",
+  "directories": {
+    "test": "test",
+    "src": "src",
+    "lib": "src"
+  }
+}
