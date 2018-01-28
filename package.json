@@ -38,6 +38,6 @@
     "lib": "src"
   },
   "dependencies": {
-    "zeronet-crypto": "^0.1.0"
+    "zeronet-crypto": "^0.2.0"
   }
 }
