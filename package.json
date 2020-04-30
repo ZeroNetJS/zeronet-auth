@@ -13,7 +13,9 @@
     "release-minor": "aegir release --type minor",
     "release-major": "aegir release --type major",
     "coverage": "aegir coverage",
-    "coverage-publish": "aegir coverage -u"
+    "coverage-publish": "aegir coverage -u",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "zeronet",
@@ -38,6 +40,8 @@
     "lib": "src"
   },
   "dependencies": {
-    "zeronet-crypto": "^0.2.0"
-  }
+    "zeronet-crypto": "^0.2.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
